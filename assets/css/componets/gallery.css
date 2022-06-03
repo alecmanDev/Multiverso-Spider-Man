@@ -1,0 +1,22 @@
+.s-gallery {
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.s-gallery ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-gallery ul li {
+  margin-left: 2.5rem;
+}
+
+.s-gallery ul li:first-child {
+  margin-left: 0px;
+}
+
+.s-gallery ul li a img {
+  border: solid 6px white;
+  border-radius: 15px;
+}
